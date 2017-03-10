@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBA44ABC1E722E6F0033B34C /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA44ABB1E722E6F0033B34C /* ListadoViewController.swift */; };
 		FBE82B041E721F2800EBF27E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE82B031E721F2800EBF27E /* AppDelegate.swift */; };
 		FBE82B061E721F2800EBF27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE82B051E721F2800EBF27E /* ViewController.swift */; };
 		FBE82B091E721F2800EBF27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE82B071E721F2800EBF27E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBA44ABB1E722E6F0033B34C /* ListadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
 		FBE82B001E721F2800EBF27E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE82B031E721F2800EBF27E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBE82B051E721F2800EBF27E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FBE82B031E721F2800EBF27E /* AppDelegate.swift */,
+				FBA44ABB1E722E6F0033B34C /* ListadoViewController.swift */,
 				FBE82B051E721F2800EBF27E /* ViewController.swift */,
 				FBE82B071E721F2800EBF27E /* Main.storyboard */,
 				FBE82B0A1E721F2800EBF27E /* Assets.xcassets */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					FBE82AFF1E721F2700EBF27E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SM56A36YSJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE82B061E721F2800EBF27E /* ViewController.swift in Sources */,
+				FBA44ABC1E722E6F0033B34C /* ListadoViewController.swift in Sources */,
 				FBE82B041E721F2800EBF27E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +265,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SM56A36YSJ;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.sulca.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +280,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SM56A36YSJ;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.sulca.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +310,7 @@
 				FBE82B141E721F2800EBF27E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
